@@ -118,22 +118,25 @@
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
         <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img>
+             <img src="mdn.svg" alt="Think so">
         </a>
         <a href="https://www.mozilla.org/">
-          <img>
+             <img srcset="logo120px.jpg 120w, logo400px.jpg 400w" sizes="(max-width: 500px) 120px, 400px" alt="mozilla" src="logo400px.jpg">
         </a>
         <a href="https://addons.mozilla.org/">
-          <img>
+          <img srcset="add120px.jpg 120w, add400px.jpg 400w" sizes="(max-width: 500px) 120px, 400px" alt="addon" src="add400px.jpg">
         </a>
         <a href="https://developer.mozilla.org/en-US/">
-          <img>
+           <img srcset="dino120px.jpg 120w, dino400px.jpg 400w" sizes="(max-width: 500px) 120px, 400px" alt="dev" src="dino400px.jpg">
         </a>
         <div class="clearfix"></div>
       </div>
 
       <div class="red-panda">
-        <!-- insert picture element -->
+       <picture>
+<source media="(max-width:600px)" src="red600px.jpg">
+<img src="red1200px.jpg">
+</picture>
       </div>
 
     </main>
